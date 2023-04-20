@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{16113780-EB98-4498-A624-78EF4205C6FB}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45036.7115277778" objectName="Aliases.browser.pageGmail2.sectionSarabdeepChana.textnodeSarabdeepChana.textnodeSarabdeepChana2.panelQaSarabdeepchanaGmailCom" objectLeft="780" objectTop="461" objectRight="1119" objectBottom="481" clickPointX="869" clickPointY="475" imageFileName="tcvi1169704000208805.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45036.7115625" objectName="Aliases.browser.pageGmail3.sectionEnterYourPassword.passwordboxEnterYourPassword" objectLeft="732" objectTop="504" objectRight="1187" objectBottom="569" clickPointX="-1" clickPointY="-1" imageFileName="tcvi1169707140208807.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45036.7115972222" objectName="Aliases.browser.pageGmail3.sectionEnterYourPassword.passwordboxEnterYourPassword" objectLeft="732" objectTop="504" objectRight="1187" objectBottom="569" clickPointX="-1" clickPointY="-1" imageFileName="tcvi11697071402088071.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45036.7116319444" objectName="Aliases.browser.pageGmail3.buttonNext" objectLeft="1091" objectTop="667" objectRight="1190" objectBottom="712" clickPointX="1180" clickPointY="708" imageFileName="tcvi1169713187208808.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

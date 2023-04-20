@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{BCC869ED-534E-4674-8F56-2421DE0BF38B}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
+				<Data Description="Launches the specified browser and opens the specified URL in it." BrowserName="chrome">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;ifkv=AQMjQ7R4teWmXTvaiDTER2vgJ0En-Pcf7NV5pWyxCFdHPD-s1Yssqfvb5krGqOwrRdrXD2hbTJX4ag&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin" />
+						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Action="Maximize" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindow;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageGmail2.sectionSarabdeepChana.textnodeSarabdeepChana.textnodeSarabdeepChana2.panelQaSarabdeepchanaGmailCom;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Sets the text %p1 in the &apos;%n&apos; text editor." Action="SetText" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Param1" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Password1" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageGmail3.sectionEnterYourPassword.passwordboxEnterYourPassword;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Sets the text %p1 in the &apos;%n&apos; text editor." Action="SetText" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Param1" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Password2" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageGmail3.sectionEnterYourPassword.passwordboxEnterYourPassword;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageGmail3.buttonNext;" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{7D105D27-902B-4C6F-93B2-C401689B11C0}" />
+</Root>

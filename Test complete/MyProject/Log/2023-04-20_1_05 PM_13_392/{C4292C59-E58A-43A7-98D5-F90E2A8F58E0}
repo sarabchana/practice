@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1187"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="504"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="45036.7115972222"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageGmail3.sectionEnterYourPassword.passwordboxEnterYourPassword"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object bottom" type="I" value="569"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="732"/>
+					<Prp name="image file name" type="S" value="tcvi11697071402088071.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1187"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="504"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="45036.7120349421"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageGmail3.sectionEnterYourPassword.passwordboxEnterYourPassword"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object bottom" type="I" value="569"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="732"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageGmail3.sectionEnterYourPassword.passwordboxEnterYourPassword&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://accounts.google.com/signin/v2/challenge/pwd?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&amp;emr=1&amp;flowEntry=ServiceLogin&amp;flowName=GlifWebSignIn&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&amp;ifkv=AQMjQ7TQkS2jFgwEgdpEcteC5jtFsPeXXXrRy8C4kbGFZCfNIenTRutFKFgsEe8w-KjwNl2feAbAyA&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;cid=1&amp;navigationDirection=forward&amp;TL=ADBc5UMbHwMRH95I-_2bXPTuOkGEfvyPKue9g7-cIktntuyRqwiSKWL_Mm5fw7K1&quot;).FindElement(&quot;//input[@name='password']&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The value of the MyProject.MyProject.Password2 variable was entered in the text editor."/>
+			<Prp name="date" type="D" value="45036.5453694097"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="URL: https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;ifkv=AQMjQ7R4teWmXTvaiDTER2vgJ0En-Pcf7NV5pWyxCFdHPD-s1Yssqfvb5krGqOwrRdrXD2hbTJX4ag&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&#xA;&#xA;Aliases.browser"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Navigating to the https://accounts.google.com/InteractiveLogin/signinchooser... page."/>
+			<Prp name="date" type="D" value="45036.5453479514"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;head&gt;&lt;style&gt;td{font-family: Courier New, Consolas, Segoe UI; font-size : 14px;}&lt;/style&gt;&lt;/head&gt;											  &lt;body&gt;											  &lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Browser:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Google Chrome ver.112.0.5615.137 (x64)&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Executable:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;C:\Program Files\Google\Chrome\Application\chrome.exe&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td style=&quot;padding-right: 8px;&quot;&gt;&lt;b&gt;Command-line args:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;URL:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;ifkv=AQMjQ7R4teWmXTvaiDTER2vgJ0En-Pcf7NV5pWyxCFdHPD-s1Yssqfvb5krGqOwrRdrXD2hbTJX4ag&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PID:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;23244&lt;/td&gt;&lt;/tr&gt;											  &lt;/table&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Google Chrome was launched."/>
+			<Prp name="date" type="D" value="45036.5453143519"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1187"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="504"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="45036.7115625"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageGmail3.sectionEnterYourPassword.passwordboxEnterYourPassword"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object bottom" type="I" value="569"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="732"/>
+					<Prp name="image file name" type="S" value="tcvi1169707140208807.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1358"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="504"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="45036.7120317014"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageGmail3.sectionEnterYourPassword.passwordboxEnterYourPassword"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object bottom" type="I" value="569"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="903"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageGmail3.sectionEnterYourPassword.passwordboxEnterYourPassword&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://accounts.google.com/signin/v2/challenge/pwd?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&amp;emr=1&amp;flowEntry=ServiceLogin&amp;flowName=GlifWebSignIn&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&amp;ifkv=AQMjQ7TQkS2jFgwEgdpEcteC5jtFsPeXXXrRy8C4kbGFZCfNIenTRutFKFgsEe8w-KjwNl2feAbAyA&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;cid=1&amp;navigationDirection=forward&amp;TL=ADBc5UMbHwMRH95I-_2bXPTuOkGEfvyPKue9g7-cIktntuyRqwiSKWL_Mm5fw7K1&quot;).FindElement(&quot;//input[@name='password']&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The value of the MyProject.MyProject.Password1 variable was entered in the text editor."/>
+			<Prp name="date" type="D" value="45036.5453674884"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1929"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-9"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="45036.7120159491"/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="1029"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="-9"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.BrowserWindow&#xA;(Sys.Browser(&quot;chrome&quot;).BrowserWindow(0))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The 'Gmail - Google Chrome' window was maximized."/>
+			<Prp name="date" type="D" value="45036.5453501273"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1119"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="461"/>
+					<Prp name="click point y" type="I" value="475"/>
+					<Prp name="datetime" type="D" value="45036.7115277778"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageGmail2.sectionSarabdeepChana.textnodeSarabdeepChana.textnodeSarabdeepChana2.panelQaSarabdeepchanaGmailCom"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="481"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="780"/>
+					<Prp name="image file name" type="S" value="tcvi1169704000208805.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="869"/>
+				</Node>
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1119"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="461"/>
+					<Prp name="click point y" type="I" value="471"/>
+					<Prp name="datetime" type="D" value="45036.7120220486"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageGmail2.sectionSarabdeepChana.textnodeSarabdeepChana.textnodeSarabdeepChana2.panelQaSarabdeepchanaGmailCom"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="481"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="780"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="949"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (135, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageGmail2.sectionSarabdeepChana.textnodeSarabdeepChana.textnodeSarabdeepChana2.panelQaSarabdeepchanaGmailCom&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&amp;emr=1&amp;flowEntry=ServiceLogin&amp;flowName=GlifWebSignIn&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&amp;ifkv=AQMjQ7TQkS2jFgwEgdpEcteC5jtFsPeXXXrRy8C4kbGFZCfNIenTRutFKFgsEe8w-KjwNl2feAbAyA&amp;osid=1&amp;passive=1209600&amp;service=mail&quot;).FindElement(&quot;//div[.='qa.sarabdeepchana@gmail.com']&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45036.5453574884"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{16113780-EB98-4498-A624-78EF4205C6FB}"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1190"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="667"/>
+					<Prp name="click point y" type="I" value="708"/>
+					<Prp name="datetime" type="D" value="45036.7116319444"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageGmail3.buttonNext"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object bottom" type="I" value="712"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="1091"/>
+					<Prp name="image file name" type="S" value="tcvi1169713187208808.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1180"/>
+				</Node>
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1190"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="667"/>
+					<Prp name="click point y" type="I" value="689"/>
+					<Prp name="datetime" type="D" value="45036.7120389468"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageGmail3.buttonNext"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object bottom" type="I" value="712"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="1091"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1140"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageGmail3.buttonNext&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://accounts.google.com/signin/v2/challenge/pwd?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&amp;emr=1&amp;flowEntry=ServiceLogin&amp;flowName=GlifWebSignIn&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&amp;ifkv=AQMjQ7TQkS2jFgwEgdpEcteC5jtFsPeXXXrRy8C4kbGFZCfNIenTRutFKFgsEe8w-KjwNl2feAbAyA&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;cid=1&amp;navigationDirection=forward&amp;TL=ADBc5UMbHwMRH95I-_2bXPTuOkGEfvyPKue9g7-cIktntuyRqwiSKWL_Mm5fw7K1&quot;).FindElement(&quot;//button[.='Next']&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45036.5453745833"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>
